@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+   
+    font-family: "Manrope", sans-serif;
+    color: #00204a;
+    background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);
+    /* background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83)); */
+    margin: 0;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px 0;
+    
+}
+
+
+.container {
+    margin-top: 10px;
+    /* text-align: center; */
+    /* width: 90%;  */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #005792;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+}
+
+button:hover {
+    background-color: #00bbf0;
+}
+
+/* img {
+    margin-top: 100px;
+    max-width: 80%;
+    height: auto;
+    display: none;
+    margin: 0 auto;
+    
+} */
+h1, h3{
+    font-family: "Manrope", sans-serif;
+    text-align: justify;
+    /* margin-top: 10px; */
+    display: block;
+    margin: 5px 0;
+    font-size: 16px; 
+
+}
+h2{
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    /* margin-top: 10px; */
+    display: block;
+    margin: 5px 0;
+    font-size: 16px; 
+
+}
+
+p{
+    font-family: "Manrope", sans-serif;
+    text-align: start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 14px; 
+}
+img {
+    max-width: 40%;
+    border: 5px solid #3498db; /* Color azul del borde */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 5px; /* Espacio entre la imagen y el borde */
+    background-color: #f1f1f1; /* Color de fondo detrás de la imagen */
+    display: block;
+    margin: 5px auto;
+}
+#resultado {
+    font-size: 30px; /* Cambiar el tamaño de la fuente */
+    margin-top: 10px; /* Añadir un margen superior */
+    color: #080808;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+  }
+
+  .rectangulo {
+    width: 70%;
+    padding: 15px;
+    margin: 10px auto; /* Margen superior e inferior de 10px, auto en los lados para centrar */
+    border: 2px solid #eeedec;
+    background-color: #f9e79f;
+    color: #2c3e50;
+    border-radius: 5px;
+    display: none; /* Oculto por defecto */
+    text-align: center; /* Alinear el texto al centro dentro del rectángulo */
+}
+
+  
